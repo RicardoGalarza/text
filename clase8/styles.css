@@ -1,0 +1,39 @@
+body {
+  background-image: url(img/fondo2.jpg);
+  background-size: cover;
+}
+
+.foto{
+    text-align: center;
+}
+
+.foto img{
+    text-align: center;
+    width: 50%;
+    
+
+}
+
+.iconos {
+  cursor: pointer;
+}
+
+.iconos img {
+  width: 5%;
+}
+
+.color{
+    color: black;
+}
+.color a{
+    color: red;
+}
+
+p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.parrafo{
+    background-color: black;
+}
