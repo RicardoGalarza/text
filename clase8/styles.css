@@ -3,27 +3,43 @@ body {
   background-size: cover;
 }
 
+h1{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+  letter-spacing: 10px;
+  line-height: 150%;
+}
+
+
 .foto{
     text-align: center;
 }
 
 .foto img{
     text-align: center;
-    width: 50%;
+    width: 40%;
     
-
 }
 
 .iconos {
   cursor: pointer;
+  text-align: center;
 }
 
 .iconos img {
+  
   width: 5%;
 }
 
 .color{
     color: black;
+    text-align: center;
 }
 .color a{
     color: red;
@@ -37,3 +53,56 @@ p{
 .parrafo{
     background-color: black;
 }
+
+.datopersonal1{
+  font-style: italic;
+  font-weight: bold;
+}
+
+.años{
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.ligero{
+  font-weight: normal;
+  display: inline-flex;
+}
+
+.texto{
+  background-color: black;
+  text-align: center;
+  padding: 1%;
+
+  }
+
+  .break{
+    height: 100px;
+}
+
+div{
+    display: block;
+}
+
+.btn-modern {
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  font-display: flex;
+  width: 150px;
+  height: 50px;
+  align-items: center;
+  border: solid 1px transparent;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.4s ease; 
+}
+
+.btn-modern:hover {
+  transform: translateY(-5px);
+  background-color: blueviolet;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 5px 10px rgba(45, 206, 255, 0.5);
+
+}
+
