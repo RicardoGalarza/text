@@ -1,0 +1,134 @@
+.ofertas {
+  background-color: black;
+  color: white;
+  height: 10%;
+  display: flex;
+  display: flow-root;
+}
+
+#español {
+  float: left;
+}
+
+.munulogo {
+  background-color: #f0a83e;
+  text-align: center;
+  font-family: "Roboto";
+  top: 39px;
+  font-style: normal;
+  line-height: 23px;
+  height: 62px;
+  
+}
+
+.logperro {
+    text-align: center;
+    
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 47px;
+}
+
+h2 {
+  font-size: xx-large;
+}
+
+.producto {
+  background-color: #fbfaf6;
+  align-items: center;
+  margin: 1rem;
+  padding: 3rem;
+}
+
+.naranja {
+  color: #f0a83e;
+}
+
+.black {
+  color: black;
+  font-weight: 1000;
+  font-size: larger;
+}
+
+.break {
+  height: 25px;
+}
+
+.logopatita {
+  text-align: center;
+  height: 50%;
+}
+
+.correo {
+  background-color: #f0a83e;
+  color: white;
+  align-items: center;
+  font-weight: 700;
+  display: flex;
+  height: 80px;
+  font-size: x-large;
+}
+
+.linea {
+  background-color: #3c2313;
+  height: 284px;
+  display: block;
+  color: white;
+  font-weight: bold;
+}
+
+.negro {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 25px;
+}
+
+.arreglo {
+  font-weight: normal;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.boton {
+  border-radius: 50px;
+  width: 95px;
+  height: 50px;
+  background: #3c2313;
+  color: white;
+  float: right;
+}
+
+.boton:hover {
+  border-radius: 50px;
+}
+
+.btn {
+  border-radius: 150px;
+  width: 275px;
+  height: 50px;
+}
+
+.img {
+    float: right;
+    
+    width:15%;
+    
+    
+}
