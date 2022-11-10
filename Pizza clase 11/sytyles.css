@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2? family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+   
+}
+
+body{
+    background-color:  #E5E5E5;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    padding: 2rem;
+}
+.a1{
+    padding: 1rem;
+    text-decoration: none;
+    color: #F3F3F3;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.a2{
+    padding: 10px;
+    text-decoration: none;
+    color: #F3F3F3;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.img1{
+    background-image: url(img/delivery.png);
+    background-repeat: no-repeat;
+    width: 490px;
+    height: 350px;
+    left: 19px;
+    top: 135px;    
+}
+.nav1{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav2{
+    display: flex;
+    flex-direction: column;
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.titulosCaja{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #FC200C;
+    font-size: 24px;
+}
+
+.comprando{
+    color: white;
+}
+.caja2{
+    display: flex;
+    flex-direction: column;
+    width: 491px;
+    height: 350px;
+    left: 514px;
+    top: 135px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.hijoCaja2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+
+}
+
+.lista{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.logo2{
+    width: 300px;
+    height: 120px;
+
+}
