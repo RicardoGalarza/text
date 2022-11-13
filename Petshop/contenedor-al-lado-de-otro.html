@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        html body{
+            padding: 0;
+            margin: 0;
+        }
+
+        .papi{
+            /*
+            overflow:  hidden 
+            ---permite que los contenedores hijos se queden entro del padre SIEMPRE
+            */
+            overflow: hidden;
+            padding: 1em;
+            background-color: aquamarine;
+            display: flex;
+            /*justify-content: center;*/
+        }
+
+        .hijo{
+            float: left;
+            padding: 1em;
+            margin: 10px;
+            background-color: blueviolet;
+        }
+    </style>
+</head> 
+<body>
+
+    <div class="papi">
+        <div class="hijo">
+            <p>ESTO ES ALGO 1</p>
+        </div>
+        <div class="hijo">
+            <p>ESTO ES ALGO 2</p>
+        </div>
+    </div>
+
+</body>
+</html>
