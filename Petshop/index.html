@@ -5,22 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/bb4d4eb349.js" crossorigin="anonymous"></script>
-    <title>Pethop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Petshop</title>
   </head>
   <body>
-      
-    <main>
-
-      <div class="primerNav">
+      <header>
+        <div class="primerNav">
         
           <div class="hijoLeft">
             <p>Grandes ofertas en comederos</p>
           </div>
-
-
           <div class="hijoRight"> 
-
             <select name="Español" id="Español">
               <option value="">Español</option>
               <option value="">Ingles</option>
@@ -33,38 +29,45 @@
             
           </div>
       </div>
-
-
-      <section>
+      <div class="headernaranja">
+        <div class="hijoLeft">
+          <img src="img/Logo.png" alt="Logo" />
+        </div>
         <nav>
           <div>
-
-            <div class="hijoLeft">
-              <img src="img/Logo.png" alt="Logo" />
-            </div>
-
             <div class="hijoRight">
-
+  
               <a href="#" class="">
                 <img src="img/patita munu.png" alt="">Categorias
               </a>
-
+  
               <a href="#" class="">
                 <img src="img/patita munu.png" alt="">Pets
               </a>
-
+  
               <a href="#" class="">
                 <img src="img/patita munu.png" alt="">Nosotros
               </a>
-
+  
               <a href="#" class="">
                 <img src="img/patita munu.png" alt="">Contáctanos
               </a>
               
             </div>
-
+  
           </div> 
         </nav>
+       <button class="menuhambur"><i class="fa-sharp fa-solid fa-bars"></i></button>
+      </div>
+      
+
+      </header>
+    <main>
+
+      
+
+      <section>
+        
 
          <div class="menu">
             <div class="hijoRight">
@@ -82,36 +85,43 @@
         <div class="container">
           <div class="producto">
             <img src="img/churrasquito.png" alt="churrasquito" />
-            <center class="black"><p>Juguete Churrasquito</p></center>
-            <center class="naranja"><p>$150</p></center>
+            <p class="black">Juguete Churrasquito</p>
+            <p class="naranja">$150</p>
           </div>
           <div class="producto">
             <img src="img/comedero.png" alt="comedero" />
-            <center class="black"><p>Comedero para perro</p></center>
-            <center class="naranja"><p>$250</p></center>
+            <p class="black">Comedero para perro</p>
+            <p class="naranja">$250</p>
           </div>
           <div class="producto">
             <img src="img/Huesito.png" alt="Huesito" />
-            <center class="black"><p>Juguete Huesito</p></center>
-            <center class="naranja"><p>$650</p></center>
+            <p class="black">Juguete Huesito</p>
+            <p class="naranja">$650</p>
           </div>
         </div>
+
         <h3>Contáctanos</h3> 
-        <center><input type="text" name="Nombre y Apellido" class="borde" placeholder=" &nbsp Nombre y Apellido"/></center>
-        <center><input type="email" name="Ingresa tu correo electrónico" class="borde" placeholder=" &nbsp Ingresa tu correo electrónico"/></center>
-        <center><input type="text" name="Teléfono" class="borde" placeholder=" &nbsp Teléfono"/></center>
-        <div class="contenedor">
-          <center><button class="botonR">Resetear</button></center>
-          <center><button class="botonE">Enviar</button></center>
-        </div>
+        <form class="contacto">
+          <input type="text" name="Nombre y Apellido" class="borde" placeholder=" &nbsp Nombre y Apellido"/>
+          <input type="email" name="Ingresa tu correo electrónico" class="borde" placeholder=" &nbsp Ingresa tu correo electrónico"/>
+          <input type="tel" name="Telefono" id="" class="borde" placeholder="Telefono">
+          <div class="contenedor">
+            <button class="botonR">Resetear</button>
+            <button class="botonE">Enviar</button>
+          </div>
+        </form>
     </main>
     
     <footer>
       <div class="correos">
-        <img src="img/enviar-correo 1.png" alt="correo">
-        <p> &nbsp Suscríbete para más novedades</p>
-        <input type="email" name="Ingresa tu correo electronico" class="btn" placeholder="Ingresá tu correo electronico"/>
-        <button class="boton">Suscribirme</button>
+        <div class="suscribete">
+          <img src="img/enviar-correo 1.png" alt="correo">
+          <p>Suscríbete para más novedades</p>
+        </div>
+        <form>
+          <input type="email" name="Ingresa tu correo electronico" class="inputexto" placeholder="Ingresá tu correo electronico"/>
+          <button class="boton">Suscribirme</button>
+        </form>
       </div>
       
         

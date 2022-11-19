@@ -2,13 +2,11 @@
 
 * {
   box-sizing: border-box;
-  margin: 0%;
+  margin: 0;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  max-width: 1024px;
-  max-height: 800px;
   margin: 0 auto;
 }
 /** body **/
@@ -17,54 +15,51 @@ body {
   display: flex;
   overflow: hidden;
   justify-content: space-between;
-  padding: 0.5rem ;
+  padding: 0.5rem;
 }
 
-.primerNav .hijoLeft{
+.primerNav .hijoLeft {
   color: white;
-  float: left;
   padding-left: 80px;
 }
 
-.primerNav .hijoRight{
+.primerNav .hijoRight {
   color: white;
-  float: right;
 }
 
-.primerNav .hijoRigh select{
-  color:white;
-  float: right;
-  appearance: none;
-	-webkit-appearance: none;
-	-moz-appearance: none;
+.primerNav .hijoRight select {
+  color: white;
+  background-color: black;
+  border: none;
 }
 
 
-main section nav div {
+header .headernaranja  {
   display: flex;
-  overflow: hidden;
+  justify-content: space-between;
   padding: 15px;
-  color: white;
-  width: 1024px;
+
   height: 62px;
   background-color: #f0a83e;
   color: white;
   align-items: center;
 }
 
-main section nav div .hijoLeft{
-  float: left;
-}
 
-main section nav div .hijoRight{
-  float: right;
-}
 
-main section nav div .hijoRight a{
+header nav div .hijoRight a {
   text-align: center;
   text-decoration: none;
   color: white;
   margin: 10px;
+}
+
+.menuhambur{
+  background-color: transparent;
+  border: 0;
+  color: white;
+  font-size: 1.5rem;
+  display: none;
 }
 
 main section div img {
@@ -77,21 +72,18 @@ main section div img {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 1025px;
   height: 409px;
   display: flex;
-  overflow: hidden;
   justify-content: end;
   align-items: center;
 }
 
-.menu .hijoRight{
+.menu .hijoRight {
   margin-right: 70px;
-  float: right;
   text-align: center;
 }
 
-.menu .hijoRight h2{
+.menu .hijoRight h2 {
   color: #3c2313;
   font-size: x-large;
   background-color: white;
@@ -103,12 +95,12 @@ main section div img {
   -o-border-radius: 5px;
 }
 
-.menu .hijoRight p{
+.menu .hijoRight p {
   font-size: larger;
-  margin: 15px;;
+  margin: 15px;
 }
 
-.menu .hijoRight button{
+.menu .hijoRight button {
   background-color: #f0a83e;
   color: white;
   border-radius: 5px;
@@ -117,7 +109,6 @@ main section div img {
   top: 334px;
   cursor: pointer;
 }
-
 
 .venta {
   text-align: center;
@@ -129,49 +120,56 @@ main section div img {
   margin-top: 25px;
 }
 
-
 .container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 0 auto;
+  row-gap: 1rem;
 }
 
 .producto {
   background-color: #fbfaf6;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  margin: 0.5rem;
   padding: 0.5rem;
 }
 
 .naranja {
   color: #f0a83e;
-  
 }
 
 .black {
   color: black;
   font-weight: 1000;
- 
-  
 }
 
 h3 {
-  margin-top: 15px;
   text-align: center;
-  height: 29px;
   font-family: "Roboto";
   color: #3c2313;
   font-weight: 700;
   font-size: 30px;
-  margin-top: 25px;
+  margin: 1rem 0;
+}
+.contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .borde {
   margin-top: 15px;
   text-align: center;
   border-radius: 25px;
-  width: 400px;
+  width: 100%;
   height: 50px;
   background: #3c2313;
   color: white;
@@ -182,49 +180,27 @@ h3 {
   margin-top: 40px;
   display: flex;
   justify-content: center;
-  padding: 10px;
+  gap: 1rem;
 }
 
-.botonE {
-  padding: 0;
-  margin: 0;
-  background-color: #f0a83e;
+.botonE,
+.botonR {
   color: white;
-  font-display: flex;
   width: 150px;
   height: 50px;
-  align-items: center;
-  border: solid 1px transparent;
+  border: 0;
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.4s ease;
-  margin-right: 10px;
 }
-
-.botonE:hover {
-  border-radius: 50px;
-  transform: translateY(-5px);
-  color: rgb(255, 255, 255);
-  box-shadow: 0 5px 10px rgba(45, 206, 255, 0.5);
+.botonE {
+  background-color: #f0a83e;
 }
 
 .botonR {
-  padding: 0;
-  margin: 0;
   background-color: #8a8787;
-  color: white;
-  justify-content: center;
-  font-display: flex;
-  width: 150px;
-  height: 50px;
-  align-items: center;
-  border: solid 1px transparent;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.4s ease;
-  margin-right: 10px;
 }
-
+.botonE:hover,
 .botonR:hover {
   border-radius: 50px;
   transform: translateY(-5px);
@@ -236,32 +212,39 @@ h3 {
 
 .correos {
   padding: 15px;
-
   background-color: #f0a83e;
-  margin-top: 10px;
+  margin-top: 1rem;
   color: white;
-  align-items: center;
-  width: 1024px;
   display: flex;
-  height: 80px;
+  align-items: center;
+  justify-content: space-between;
   font-size: 21px;
-  padding-left: 20;
+  flex-wrap: wrap;
 }
 
-.btn {
+.suscribete {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.correos form {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.inputexto {
   text-align: center;
   border-radius: 25px;
-  width: 271px;
+  width: 70%;
   height: 50px;
-  justify-content: space-around;
-  margin-left: 220px;
-  
   
 }
 
 .boton {
   border-radius: 50px;
-  width: 95px;
+  width: 30%;
   height: 50px;
   background: #3c2313;
   color: white;
@@ -295,56 +278,70 @@ h3 {
 
 .derechosReservados {
   text-align: center;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 10px;
   line-height: 12px;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: black;
   padding: 8px;
 }
 
-.mediosContacto{
-  overflow: hidden;
+.mediosContacto {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
-.hijoFooterLeft{
-  float: left;
-}
-
-.hijoFooteRight{  
-  margin-top: 12%;
-  float: right;
-  align-items: stretch;
-}
-
-.hijoFooterLeft .fondoCafe img{
+.hijoFooterLeft .fondoCafe img {
   display: inline-block;
   max-width: 58px;
 }
-.hijoFooterLeft .fondoCafe div{
+.hijoFooterLeft .fondoCafe div {
   display: inline-block;
   margin-left: 20px;
 }
 
-.hijoFooterLeft .fondoCafe div h2{
-  font-family: 'Roboto';
+.hijoFooterLeft .fondoCafe div h2 {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
 }
 
-.hijoFooterLeft .fondoCafe div p{
-  font-family: 'Roboto';
+.hijoFooterLeft .fondoCafe div p {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 10px;
   line-height: 12px;
-  color: #8A8787;
+  color: #8a8787;
 }
 
-.d-flex{
+.d-flex {
   display: flex;
+}
+
+@media (max-width: 650px) {
+  .primerNav{
+    display: none;
+  }
+  section .hijoRigh {
+    display: none;
+  }
+  .menuhambur{
+    display: block;
+  }
+  header nav{
+    display: none;
+  }
+  .menu .hijoRight{
+    margin: 0 auto;
+  }
+  .mediosContacto{
+    flex-direction: column-reverse;
+  }
 }
